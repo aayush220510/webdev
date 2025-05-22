@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container{
+  background: linear-gradient(140deg,#3c87b5,rgb(102, 200, 186));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  background-color: #5196c2;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(237, 229, 218);
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-family: "Victor Mono", monospace;
+}
+
+p{
+  font-size: 15px;
+  color: rgb(237, 229, 218);
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Victor Mono", monospace;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="email"]{
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  padding: 5px;
+  font-family: "Victor Mono", monospace;
+}
+
+button{
+  width: 100px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border: 1px solid rgba(59, 59, 59, 0.152);
+  background-color: #3c87b5;
+  font-family: "Victor Mono", monospace;
+  font-size: 12px;
+  transition: background-color 0.3s ease-in-out;
+  color: #172229;
+}
+
+button:hover{
+  background-color: #151a1c;
+  color: white;
+}
