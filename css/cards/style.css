@@ -1,0 +1,89 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background: linear-gradient(195deg,black,white,black);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid-container{
+    height: 80%;
+    width: 72%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 40px;
+    /* background-color: aliceblue; */
+}
+
+h1,h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.roundedsquare {
+    height: 98.3%;
+    width: 92.3%;
+    padding: 1.2px;
+    padding-bottom: 2.2px;
+    padding-right: -2.2px;
+    /* border: 5px solid black;  */
+    background-color: rgb(245, 248, 248);
+    box-shadow: 5px 5px 0.5px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headi{
+    text-align: center;
+}
+
+.rounddiv{
+    display: flex;
+    gap: 80px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button{
+    width: 100px;
+    height: 22px;
+    cursor: pointer;
+    color: #fff;
+    background: #697181;
+    border-color: #697181;
+    border-radius: 5px;
+    border: none;
+    transition : all 0.5s ease-in-out;
+}
+
+img{
+    transition: transform 0.5s ease-in-out;
+}
+img:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+
+button:hover{
+    color: #fff;
+    background: #000;
+    border-color: #000;
+}
+
+
